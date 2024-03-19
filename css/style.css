@@ -1,7 +1,60 @@
 @import url(variable.css);
-*{
+
+body, html {
     padding: 0;
     margin: 0;
-    border: 0;
-    box-sizing: border-box;
+}
+
+.container {
+    text-align: center;
+    margin-top: 0px;
+    position:  absolute;
+}
+
+.title {
+    font-size: 70px;
+    color: var(--color--primary);
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: -160px;
+    top: -20px; 
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.imagen {
+    margin-top: 40px;
+    max-width: 120%;
+    right: -240px;
+    position: relative;
+}
+
+.button {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 13px;
+    background: var(--color--primary);
+    color: var(--color--secundary);
+    border-color: var(--color--primary);
+    right: -320px;
+    top: -80px;
+}
+.paragraph{
+    position: relative;
+    right: -400px;
+    top: -140px;
+    font-size: 20px;
+    align-items: end;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 440px;
+    height: 10px;
 }
